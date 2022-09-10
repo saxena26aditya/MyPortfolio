@@ -6,6 +6,11 @@ body {
 	font-family: montserrat;
 	font-size: 10px;
 }
+.banner-text .hello ul li{
+	border-radius: 50%;
+	border-color: aqua;
+	font-style: italic;
+}
 .banner-text {
 	width: 100%;
 	position: absolute;
@@ -28,14 +33,29 @@ body {
 	padding: 5px 10px;
 	font-family: berkshire swash;
 }
-img{
-	border-radius: 4px;
-	padding-left: 5px;
-}
+
 .banner-text ul li a:hover {
 	background: #fff;
 	color: #000;
 	padding-bottom: 0%;
+}
+.banner-text h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 15px;
+	font-family: berkshire swash;
+	letter-spacing: 3px;
+}
+.banner-text h4 {
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 0%;
+	margin-bottom: 15px;
+	font-family: berkshire swash;
+	letter-spacing: 3px;
 }
 .banner-text h2 {
 	text-align: center;
@@ -53,6 +73,7 @@ img{
 	margin: auto;
 	color: #ddd;
 	line-height: 1.7;
+	font-style: italic;
 }
 .animation-area {
 	background: linear-gradient(to right, #fdbb2d, #b21f1f, #1a2a6c);
